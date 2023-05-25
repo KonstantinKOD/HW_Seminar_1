@@ -3,3 +3,11 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0) |
 
+print('Введи число')
+n = int(input())
+summ = 0
+while n > 0:
+    x= n % 10
+    summ = summ + x
+    n //= 10
+print(summ)
